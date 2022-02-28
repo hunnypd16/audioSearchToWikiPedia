@@ -9,7 +9,7 @@ driver.find_element(By.XPATH,'/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]
 driver.find_element(By.XPATH,'/html/body/div[7]/div/div[10]/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[1]/div/a/h3').click()
 driver.find_element(By.XPATH,'/html/body/div[3]/form/fieldset/div/input').send_keys('what is the size of sun')
 driver.find_element(By.XPATH,'/html/body/div[3]/form/fieldset/button/i').click()
-driver.find_element(By.XPATH, '/html/body/div[3]/div[3]/div[4]/div[3]/ul/li[1]/div[1]/a').click()
+driver.find_element(By.XPATH,'/html/body/div[3]/div[3]/div[4]/div[3]/ul/li[1]/div[1]/a').click()
 wiki_text = driver.find_element(By.XPATH,'/html/body/div[3]/div[3]/div[5]/div[1]/p[2]').text
 print(wiki_text)
 #sudo apt install espeak

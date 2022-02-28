@@ -1,0 +1,9 @@
+description:
+we can convert text into audio using these libraries:
+espeak:sudo apt install espeak
+pyttsx3:pip install pyttsx3
+This module supports two voices first is female and second is male
+It supports three TTS engine(text to speech):
+Sapi5-SAPI5 on windows
+nss-NSSpeechSynthesizer on MacOSX
+espeak-espeak on every other platform
